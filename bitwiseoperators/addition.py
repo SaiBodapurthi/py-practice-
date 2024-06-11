@@ -1,0 +1,9 @@
+x=int(input())
+y=int(input())
+while(y!=0):
+    ans=x^y
+    c=x&y
+    c=c<<1
+    x=ans
+    y=c
+print(ans)
